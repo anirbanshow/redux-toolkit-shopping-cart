@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.eachProduct .eachImg {
+  height: 300px;
+  max-width: 300px;
+  padding: 15px;
+}
+
+.eachProduct .eachImg img {
+  height: 100%;
+  object-fit: contain;
+}
+
+.eachProduct .card-title {
+  font-size: 15px;
+  text-align: center;
+}
+
+.eachProduct .card-text {
+  font-size: 15px;
+  text-align: center;
+}
+
+.eachProduct button {
+  margin: 0 auto;
+  display: block;
+}
+
+.cartSection .table td,
+.cartSection .table th {
+  vertical-align: baseline !important;
+  text-align: center !important;
+}
